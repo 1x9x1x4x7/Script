@@ -1,8 +1,10 @@
 if game.PlaceId == 8151458037 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Rogue Lineage Tycoon", "Sentinel")
+local Window = Library.CreateLib("Rogue Lineage Tycoon By dadmqe5", "Sentinel")
+local Misc = Window:NewTab("Misc")
 local Main = Window:NewTab("Main")
 local Esp = Window:NewTab("Esp")
+local MiscSection = Window:NewTab("Misc")
 local EspSection = Esp:NewSection("Esp")
 local MainSection = Main:NewSection("Main")
 MainSection:NewButton("Auto Pickup Trinkets", "Auto Picks Up Trinkets", function()
